@@ -14,16 +14,18 @@
         </h2>
         <div class="columns is-centered">
           <div class="column is-12 is-7-desktop">
-            <iframe
-              width="600"
-              height="450"
-              style="border:0"
-              loading="lazy"
-              allowfullscreen
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxOw9lHR_S0ZdvFOawpKvgxoQSomZ0Tns
+            <div class="media">
+              <iframe
+                width="600"
+                height="450"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxOw9lHR_S0ZdvFOawpKvgxoQSomZ0Tns
     &q=Calle Arévalo, 1, Ávila"
-            >
-            </iframe>
+              >
+              </iframe>
+            </div>
           </div>
           <div class="column is-12 is-5-desktop">
             <div class="media">
