@@ -12,15 +12,34 @@ import "~/assets/style/index.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
-  faCamera,
+  faPrint,
+  faBook,
+  faProjectDiagram,
+  faArchive,
+  faLaptop,
+  faCommentDots,
+  faArrowLeft,
+  faArrowRight,
+  faCoffee,
+  faUser,
   faBuilding,
   faEnvelope,
   faMobileAlt,
-  faUser,
+  faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faOsi,
+  faTwitter,
+  faLinkedin,
+  faGitlab,
+  faInstagram,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
 
-export default function(Vue, { router, head, isClient }) {
+// import Vuex
+import Vuex from "vuex";
+
+export default function(Vue, { appOptions, router, head, isClient }) {
   // Add Swal
   head.script.push({
     src: "https://unpkg.com/sweetalert/dist/sweetalert.min.js",
@@ -28,13 +47,26 @@ export default function(Vue, { router, head, isClient }) {
   });
 
   library.add(
-    faCamera,
+    faPrint,
+    faBook,
+    faProjectDiagram,
+    faArchive,
+    faLaptop,
+    faCommentDots,
+    faArrowLeft,
+    faArrowRight,
+    faCoffee,
+    faUser,
     faBuilding,
     faEnvelope,
     faMobileAlt,
-    faUser,
-    faFacebook,
-    faInstagram
+    faMapMarkerAlt,
+    faOsi,
+    faTwitter,
+    faLinkedin,
+    faGitlab,
+    faInstagram,
+    faFacebook
   );
 
   Vue.component("Layout", DefaultLayout);
@@ -43,5 +75,12 @@ export default function(Vue, { router, head, isClient }) {
   Vue.use(Buefy, {
     defaultIconComponent: "vue-fontawesome",
     defaultIconPack: "fas",
+  });
+  Vue.use(Vuex);
+
+  appOptions.store = new Vuex.Store({
+    state: {
+      serviceId: "0",
+    },
   });
 }
