@@ -68,6 +68,11 @@
 import ContactForm from "~/components/ContactForm.vue";
 
 export default {
+  metaInfo() {
+    return {
+      title: "Contacto",
+    };
+  },
   components: { ContactForm },
 };
 </script>

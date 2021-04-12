@@ -69,6 +69,11 @@ query Equipo {
 import ContactForm from "~/components/ContactForm.vue";
 
 export default {
+  metaInfo() {
+    return {
+      title: "Equipo",
+    };
+  },
   components: { ContactForm },
   data() {
     return {

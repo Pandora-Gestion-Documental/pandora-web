@@ -67,6 +67,11 @@ query Services {
 import ContactForm from "~/components/ContactForm.vue";
 
 export default {
+  metaInfo() {
+    return {
+      title: "Clientes",
+    };
+  },
   components: {
     ContactForm,
   },
