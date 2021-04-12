@@ -5,7 +5,11 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Gridsome",
+  siteName: "Pandora Gestión Documental",
+  siteUrl: "https://pandoragestiondocumental.es",
+  siteDescription:
+    "Nosotros organizamos los documentos, nuestros clientes recuperan espacio, dinero e información. ",
+
   plugins: [
     {
       use: "@gridsome/source-filesystem",
