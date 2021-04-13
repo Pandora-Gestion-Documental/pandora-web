@@ -25,6 +25,12 @@ module.exports = {
         typeName: "Equipo",
       },
     },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "G-DYXVZVZQNL",
+      },
+    },
   ],
   transformers: {
     remark: {
