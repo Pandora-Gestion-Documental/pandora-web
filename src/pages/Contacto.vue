@@ -58,6 +58,16 @@
                 </div>
               </div>
             </div>
+            <div class="media">
+              <div class="media-left">
+                <b-icon pack="fas" icon="phone" size="fa-lg"> </b-icon>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>+34 920 09 54 00</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

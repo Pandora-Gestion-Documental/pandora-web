@@ -26,6 +26,7 @@ import {
   faEnvelope,
   faMobileAlt,
   faMapMarkerAlt,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faOsi,
@@ -65,6 +66,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     faEnvelope,
     faMobileAlt,
     faMapMarkerAlt,
+    faPhone,
     faOsi,
     faTwitter,
     faLinkedin,
