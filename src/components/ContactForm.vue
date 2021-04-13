@@ -101,7 +101,7 @@
           <b-field class="form-control">
             <b-checkbox :value="true" type="is-light" v-model="gdpr">
               He leído y acepto la
-              <g-link class="has-text-link" to="/article/politica-privacidad">
+              <g-link class="has-text-link" to="/politica-privacidad">
                 Política de Privacidad
               </g-link>
             </b-checkbox>

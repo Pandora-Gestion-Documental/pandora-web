@@ -18,8 +18,6 @@ Puedes ponerte en contacto con el responsable del tratamiento dirigiendo un corr
 
 Para navegar por nuestro sitio web no es necesario que facilites ningún dato personal.
 
-Nuestra herramienta de analítica web está configurada para ocultar los dos últimos bytes de las direcciones IP (por ejemplo, 192.168.xxx.xxx), anonimizar los datos de localización del usuario y no utilizar cookies que guarden datos personales. Los datos de navegación almacenados en la base de datos no permiten identificar al usuario y, por lo tanto, no pueden considerarse datos de carácter personal. Puedes leer más sobre cómo protegemos tu privacidad en el sitio web de [Matomo](https://matomo.org/blog/2018/04/how-to-not-process-any-personal-data-with-matomo-and-what-it-means-for-you/).
-
 Al contactar con nosotros a través de los formularios, el correo electrónico o el teléfono disponibles en la web, solicitamos datos personales, entre los cuales pueden figurar tu nombre y apellidos, tu dirección de correo electrónico, tu teléfono, el nombre de la empresa o institución en nombre de la cual escribes o tu CV. Utilizamos estos datos únicamente para responder tus consultas, solicitudes de soporte, reclamaciones o candidatura laboral, lo que puede incluir la elaboración y la presentación de una propuesta comercial personalizada en el caso de consultas relativas a nuestros servicios.
 
 Estos datos no serán incorporados a una lista de distribución, pero sí podrán pasar a formar parte de nuestra base de datos de clientes si terminas formalizando un contrato con nosotros, con la finalidad de poder llevar a cabo el objetivo contractual entre las partes.

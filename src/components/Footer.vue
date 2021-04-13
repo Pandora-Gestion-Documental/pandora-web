@@ -91,7 +91,7 @@
         <div class="column">
           <!-- <a href="#">Aviso legal</a>
             | -->
-          <g-link class="has-text-link" to="/article/politica-privacidad"
+          <g-link class="has-text-link" to="/politica-privacidad"
             >Política de Privacidad</g-link
           >
         </div>
