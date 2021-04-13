@@ -15,7 +15,7 @@
 
         <div class="columns is-centered is-multiline">
           <div class="column is-half mb-6">
-            <div class="content" v-html="$page.article.content"></div>
+            <div class="content" v-html="$page.equipo.content"></div>
           </div>
         </div>
 
@@ -59,51 +59,17 @@
 
 <page-query>
 query Article {
-  article(id: 1) {
+  article(id: 2) {
     content
   }
 }
 </page-query>
 
 <script>
-import ContactForm from "~/components/ContactForm.vue";
-
 export default {
   metaInfo() {
     return {
       title: "Equipo",
-    };
-  },
-  components: { ContactForm },
-  data() {
-    return {
-      team: [
-        {
-          name: "Diego Rodríguez",
-          role: "CEO y Co-founder",
-          picture: "diego-rodriguez.jpg",
-        },
-        {
-          name: "Alba Jiménez",
-          role: "Responsable de Administración y Soporte",
-          picture: "alba-jimenez.jpeg",
-        },
-        {
-          name: "Pablo Berrón",
-          role: "Responsable de Digitalización y grabación de datos",
-          picture: "pablo-berron.jpeg",
-        },
-        {
-          name: "Carmen Magide",
-          role: "Coordinadora de Proyectos Archivísticos",
-          picture: "carmen-magide.jpg",
-        },
-        {
-          name: "Guillermo Castellano",
-          role: "Consultor de gestión documental y software",
-          picture: "guillermo-castellano.jpg",
-        },
-      ],
     };
   },
 };
