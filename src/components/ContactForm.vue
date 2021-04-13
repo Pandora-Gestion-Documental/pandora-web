@@ -72,6 +72,19 @@
             </b-field>
           </div>
         </div>
+        <!-- Honeypot to avoid spam -->
+        <b-field label="Teléfono*" class="is-honey" for="phoneNumber">
+          <b-input
+            id="mobileNumber"
+            aria-label="Mobile"
+            type="text"
+            placeholder="+34 600112233"
+            icon-pack="fas"
+            icon="mobile-alt"
+            v-model="mobile"
+          >
+          </b-input>
+        </b-field>
         <b-field label="¿Cómo podemos ayudarte?*" for="message">
           <b-input
             id="message"
@@ -97,9 +110,9 @@
 
         <div class="field">
           <div class="control">
-            <b-button id="submission" class="button is-dark " :disabled="!gdpr">
+            <button id="submission" class="button is-dark " :disabled="!gdpr">
               Contacta
-            </b-button>
+            </button>
           </div>
         </div>
 
@@ -132,25 +145,16 @@ export default {
       company: "",
       email: "",
       phoneNumber: "",
+      mobile: "",
       message: "",
       gdpr: false,
     };
   },
-  computed: {
-    swalTitle() {
-      return "¡Gracias!";
-    },
-    swalText() {
-      return "Nos pondremos en contacto contigo lo antes posible.";
-    },
-    swalButton() {
-      return "Genial";
-    },
-  },
   methods: {
     submitForm() {
-      const subject = `Hola, soy ${this.name} de ${this.company}`;
-      const body = `
+      if (this.mobile === "") {
+        const subject = `Hola, soy ${this.name} de ${this.company}`;
+        const body = `
   <html>
   <p><strong>Nombre</strong>: ${this.name}</p>
   <p><strong>Empresa</strong>: ${this.company}</p>
@@ -159,21 +163,22 @@ export default {
   <p><strong>Mensaje</strong>: ${this.message}<p>
   </html>`;
 
-      Email.send({
-        SecureToken: "7c59ed8d-4448-4f81-bdc6-59853e7a49e8",
-        To: "info@segara.io",
-        From: "gcastellano@segara.io",
-        Subject: subject,
-        Body: body,
-      }).then((message) =>
-        swal({
-          title: this.swalTitle,
-          text: this.swalText,
-          icon: "success",
-          button: this.swalButton,
-        })
-      );
-      this.resetForm();
+        Email.send({
+          SecureToken: "02985081-a715-4fb2-bbe0-c7ba92bf904a",
+          To: "info@nosturi.es",
+          From: "info@pandoragestiondocumental.es",
+          Subject: subject,
+          Body: body,
+        }).then((message) =>
+          swal({
+            title: "¡Gracias!",
+            text: "Nos pondremos en contacto contigo lo antes posible.",
+            icon: "success",
+            button: "Genial",
+          })
+        );
+        this.resetForm();
+      }
     },
     resetForm() {
       this.name = "";
@@ -190,5 +195,14 @@ export default {
 <style>
 .swal-button {
   background-color: #0b486b;
+}
+.is-honey {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  z-index: -1;
 }
 </style>

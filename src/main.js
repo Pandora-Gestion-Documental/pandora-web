@@ -45,6 +45,10 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     src: "https://unpkg.com/sweetalert/dist/sweetalert.min.js",
     body: true,
   });
+  head.script.push({
+    src: "https://smtpjs.com/v3/smtp.js",
+    body: true,
+  });
 
   library.add(
     faPrint,
