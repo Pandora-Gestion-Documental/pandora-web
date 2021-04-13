@@ -165,7 +165,7 @@ export default {
 
         Email.send({
           SecureToken: "02985081-a715-4fb2-bbe0-c7ba92bf904a",
-          To: "info@npandoragestiondocumental.es",
+          To: "info@pandoragestiondocumental.es",
           From: "info@pandoragestiondocumental.es",
           Subject: subject,
           Body: body,
