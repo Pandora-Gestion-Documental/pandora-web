@@ -26,7 +26,9 @@
         </div>
       </div>
       <div class="buttons is-flex is-justify-content-center">
-        <b-button type="is-dark is-outlined">Todos los clientes</b-button>
+        <g-link class="button is-dark is-outlined" to="/clientes/"
+          >Todos los clientes</g-link
+        >
       </div>
     </div>
   </section>
