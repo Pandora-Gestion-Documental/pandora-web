@@ -190,6 +190,10 @@ export default {
           name: "Ayuntamiento de Pozo Lorente",
         },
         {
+          logo: "ayuntamiento-zaragoza.jpg",
+          name: "Ayuntamiento de Zaragoza",
+        },
+        {
           logo: "concello-ferrol.jpg",
           name: "Concello de Ferrol",
         },
