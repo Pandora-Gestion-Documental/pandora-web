@@ -1,14 +1,14 @@
-# Default starter for Gridsome
+# Pandora Website
 
-This is the project you get when you run `gridsome create new-project`.
+Repository for the website <https://pandoragestiondocumental.es>.
 
-### 1. Install Gridsome CLI tool if you don't have
+## Technical details
 
-`npm install --global @gridsome/cli`
+- Static site made with [Gridsome](https://gridsome.org/) and [Buefy](https://buefy.org).
+- Development dependencies can be found on `package.json`.
+- Data is imported from the Markdown files in `/src/data` directory.
+- Build is automatically run every time a new commit is pushed to branch `master`.
 
-### 2. Create a Gridsome project
+## Licenses
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+The code is released under [MIT License](https://mit-license.org/).
