@@ -80,7 +80,7 @@ export default {
       team: [
         {
           name: "Diego Rodríguez",
-          role: "CEO y Co-founder",
+          role: "Co-fundador",
           picture: "diego-rodriguez.jpg",
         },
         {
@@ -89,19 +89,24 @@ export default {
           picture: "alba-jimenez.jpeg",
         },
         {
+          name: "Guillermo Castellano",
+          role: "Responsable de Tecnología y Consultoría",
+          picture: "guillermo-castellano.jpg",
+        },
+        {
+          name: "Eva Guerrero",
+          role: "Coordinadora de Proyectos Archivísticos",
+          picture: "eva-guerrero.jpeg",
+        },
+        {
           name: "Pablo Berrón",
           role: "Responsable de Digitalización y grabación de datos",
           picture: "pablo-berron.jpeg",
         },
         {
-          name: "Carmen Magide",
-          role: "Coordinadora de Proyectos Archivísticos",
-          picture: "carmen-magide.jpg",
-        },
-        {
-          name: "Guillermo Castellano",
-          role: "Consultor de gestión documental y software",
-          picture: "guillermo-castellano.jpg",
+          name: "Elizabeth Oliva",
+          role: "Consultora de Gestión Documental",
+          picture: "elizabeth-oliva.jpeg",
         },
       ],
     };

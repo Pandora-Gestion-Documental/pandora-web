@@ -21,8 +21,7 @@
                 style="border:0"
                 loading="lazy"
                 allowfullscreen
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxOw9lHR_S0ZdvFOawpKvgxoQSomZ0Tns
-    &q=Calle Arévalo, 1, Ávila"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.614479148375!2d-3.691257948139417!3d40.46166897925864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42291a4ab44c6d%3A0xa858244075d9c42b!2sCink%20Coworking!5e0!3m2!1ses!2ses!4v1678207676108!5m2!1ses!2ses"
               >
               </iframe>
             </div>
@@ -34,7 +33,7 @@
               </div>
               <div class="media-content">
                 <div class="content">
-                  <p>Calle Arévalo, 1, Local 24, 05001 Ávila</p>
+                  <p>Paseo de la Castellana, 194, 28046 Madrid</p>
                 </div>
               </div>
             </div>
@@ -54,17 +53,7 @@
               </div>
               <div class="media-content">
                 <div class="content">
-                  <p>+34 639 37 29 58</p>
-                </div>
-              </div>
-            </div>
-            <div class="media">
-              <div class="media-left">
-                <b-icon pack="fas" icon="phone" size="fa-lg"> </b-icon>
-              </div>
-              <div class="media-content">
-                <div class="content">
-                  <p>+34 920 09 54 00</p>
+                  <p>+34 613 79 57 69</p>
                 </div>
               </div>
             </div>

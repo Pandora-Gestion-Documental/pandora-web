@@ -9,8 +9,8 @@ El responsable del tratamiento de tus datos personales es:
 
 **Pandora Gestión Documental, SL**  
 NIF B05234059  
-C/ Giuseppe Verdi, 1
-05003 Ávila
+Paseo de la Castellana, 194
+28046 Madrid
 
 Puedes ponerte en contacto con el responsable del tratamiento dirigiendo un correo electrónico a la dirección <info@pandoragestiondocumental.es>.
 

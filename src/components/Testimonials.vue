@@ -47,6 +47,13 @@ export default {
           role: "Directora del Archivo Histórico de Protocolos de Madrid",
         },
         {
+          logo: "caf.jpg",
+          testimonial:
+            "Pandora fue capaz de dar soporte con personal cualificado en el ámbito de la gestión de documentos de proyectos de ingeniería. Quedamos convencidos con el trabajo realizado, y más teniendo en cuenta la dificultad de encontrar personal con experiencia o con manejo de los sistemas de gestión de documentos específicos de este sector.",
+          name: "Tania Santiago Hernández",
+          role: "Records and Information Manager en CAF Turnkey & Engineering",
+        },
+        {
           logo: "diputacion-valladolid.png",
           testimonial:
             "Pandora trabaja con nosotros desde 2015. Su asimilación de nuestro sistema de descripción y de organización de los expedientes fue rápida. También lo fue su integración en las rutinas establecidas. Su trabajo resulta muy eficiente.",
