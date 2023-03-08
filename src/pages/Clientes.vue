@@ -9,33 +9,86 @@
     </section>
     <section class="section">
       <div class="container has-text-centered">
-        <h2 class="title mb-6 has-text-dark">
-          Nuestros clientes
-        </h2>
-        <div class="columns is-multiline">
-          <div
-            class="column is-12 is-4-desktop"
-            v-for="(customer, index) in customers"
-            :key="index"
-          >
-            <div class="level">
-              <div class="level-item my-5">
-                <figure class="image is-128x128">
-                  <g-image
-                    :src="
-                      require(`!!assets-loader!@images/logos-clientes/${
-                        customer.logo
-                      }`)
-                    "
-                    alt=""
-                  />
-                </figure>
+        <tabs>
+          <tab name="Empresas" :selected="true">
+            <div class="columns is-multiline">
+              <div
+                class="column is-12 is-4-desktop"
+                v-for="(empresa, index) in empresas"
+                :key="index"
+              >
+                <div class="level">
+                  <div class="level-item my-5">
+                    <figure class="image is-128x128">
+                      <g-image
+                        :src="
+                          require(`!!assets-loader!@images/logos-clientes/${
+                            empresa.logo
+                          }`)
+                        "
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                </div>
+
+                <h5 class="title is-5">{{ empresa.name }}</h5>
               </div>
             </div>
+          </tab>
+          <tab name="Tercer sector" :selected="true">
+            <div class="columns is-multiline">
+              <div
+                class="column is-12 is-4-desktop"
+                v-for="(asociacion, index) in asociaciones"
+                :key="index"
+              >
+                <div class="level">
+                  <div class="level-item my-5">
+                    <figure class="image is-128x128">
+                      <g-image
+                        :src="
+                          require(`!!assets-loader!@images/logos-clientes/${
+                            asociacion.logo
+                          }`)
+                        "
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                </div>
 
-            <h5 class="title is-5">{{ customer.name }}</h5>
-          </div>
-        </div>
+                <h5 class="title is-5">{{ asociacion.name }}</h5>
+              </div>
+            </div>
+          </tab>
+          <tab name="Administración pública" :selected="true">
+            <div class="columns is-multiline">
+              <div
+                class="column is-12 is-4-desktop"
+                v-for="(administracion, index) in administraciones"
+                :key="index"
+              >
+                <div class="level">
+                  <div class="level-item my-5">
+                    <figure class="image is-128x128">
+                      <g-image
+                        :src="
+                          require(`!!assets-loader!@images/logos-clientes/${
+                            administracion.logo
+                          }`)
+                        "
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                </div>
+
+                <h5 class="title is-5">{{ administracion.name }}</h5>
+              </div>
+            </div>
+          </tab>
+        </tabs>
       </div>
     </section>
     <ContactForm />
@@ -64,6 +117,8 @@ query Services {
 </style>
 
 <script>
+import Tabs from "~/components/Tabs.vue";
+import Tab from "~/components/Tab.vue";
 import ContactForm from "~/components/ContactForm.vue";
 
 export default {
@@ -73,14 +128,38 @@ export default {
     };
   },
   components: {
+    Tabs,
+    Tab,
     ContactForm,
   },
   data() {
     return {
-      customers: [
+      empresas: [
         { logo: "urbaser.png", name: "Urbaser" },
         { logo: "caf.jpg", name: "CAF Turnkey & Engineering" },
         { logo: "bbva.jpg", name: "BBVA" },
+        { logo: "cogersa.jpeg", name: "COGERSA" },
+        { logo: "electrica-de-cadiz.png", name: "Eléctrica de Cádiz" },
+        { logo: "btd.png", name: "BTD" },
+      ],
+      asociaciones: [
+        {
+          logo: "greenpeace-espana.png",
+          name: "Greenpeace España",
+        },
+        { logo: "mdm.png", name: "Médicos del Mundo" },
+        {
+          logo: "fundacion-jesus-pereda.png",
+          name: "Fundación Jesús Pereda (CCOO CyL)",
+        },
+        {
+          logo: "fundacion-biodiversidad.jpg",
+          name: "Fundación Biodiversidad",
+        },
+        { logo: "fundacion-estudio.png", name: "Fundación Estudio" },
+        { logo: "fundacion-paisaje.png", name: "Fundación Paisaje" },
+      ],
+      administraciones: [
         { logo: "ministerio-defensa.png", name: "Ministerio de Defensa" },
         {
           logo: "ministerio-defensa-ejercito-aire.png",
@@ -200,10 +279,6 @@ export default {
         {
           logo: "concello-neda.jpg",
           name: "Concello de Neda",
-        },
-        {
-          logo: "greenpeace-espana.png",
-          name: "Greenpeace España",
         },
         {
           logo: "patrimonio-nacional.jpg",
