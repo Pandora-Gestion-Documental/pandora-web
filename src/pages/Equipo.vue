@@ -51,6 +51,33 @@
             <p class="subtitle is-6">{{ employee.role }}</p>
           </div>
         </div>
+
+        <hr />
+
+        <h2 class="title has-text-dark">
+          Partners
+        </h2>
+
+        <div class="columns is-multiline">
+          <div
+            class="column is-12 is-4-desktop"
+            v-for="(partner, index) in partners"
+            :key="index"
+          >
+            <div class="level">
+              <div class="level-item my-5">
+                <figure class="image is-128x128">
+                  <g-image
+                    :src="require(`!!assets-loader!@images/${partner.logo}`)"
+                    alt=""
+                  />
+                </figure>
+              </div>
+            </div>
+
+            <h5 class="title is-5">{{ partner.name }}</h5>
+          </div>
+        </div>
       </div>
     </section>
     <ContactForm />
@@ -108,6 +135,14 @@ export default {
           role: "Consultora de Gestión Documental",
           picture: "elizabeth-oliva.jpeg",
         },
+      ],
+      partners: [
+        {
+          logo: "acal.png",
+          name: "Asociación de Archiveros de Castilla y León",
+        },
+        { logo: "usal.png", name: "Universidad de Salamanca" },
+        { logo: "openkm.jpg", name: "OpenKM" },
       ],
     };
   },
