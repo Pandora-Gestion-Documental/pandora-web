@@ -18,6 +18,11 @@
         <b-navbar-item tag="router-link" to="/servicios/">
           Servicios
         </b-navbar-item>
+        <b-navbar-dropdown collapsible has-link="true" label="Productos">
+          <b-navbar-item tag="router-link" to="/ccctool/">
+            CCCtool
+          </b-navbar-item>
+        </b-navbar-dropdown>
         <b-navbar-dropdown collapsible has-link="true" label="Nosotros">
           <b-navbar-item tag="router-link" to="/clientes/">
             Clientes

@@ -25,7 +25,7 @@
             </b-field>
           </div>
           <div class="column is-6">
-            <b-field label="Empresa*" for="company">
+            <b-field label="Organización*" for="company">
               <b-input
                 id="company"
                 aria-label="Building"

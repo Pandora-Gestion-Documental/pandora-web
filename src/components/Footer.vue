@@ -56,6 +56,9 @@
                 >
               </li>
               <li>
+                <g-link class="has-text-link" to="/servicios/">CCCtool</g-link>
+              </li>
+              <li>
                 <g-link class="has-text-link" to="/clientes/">Clientes</g-link>
               </li>
               <li>
