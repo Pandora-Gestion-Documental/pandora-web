@@ -12,10 +12,7 @@
               nuestra solución digital.
             </p>
             <div class="buttons">
-              <a
-                class="button is-primary is-medium"
-                href="https://form.typeform.com/to/NYx8OVMb"
-              >
+              <a class="button is-primary is-medium" href="/contacto">
                 Contáctanos
               </a>
             </div>
