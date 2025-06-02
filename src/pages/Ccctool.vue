@@ -28,6 +28,7 @@ import Hero from "~/components/Hero.vue";
 import ScreenshotRight from "~/components/ScreenshotRight.vue";
 import ScreenshotLeft from "~/components/ScreenshotLeft.vue";
 import More from "~/components/More.vue";
+import Partnership from "../components/Partnership.vue";
 
 export default {
   metaInfo() {
@@ -42,14 +43,15 @@ export default {
     ScreenshotRight,
     ScreenshotLeft,
     More,
+    Partnership,
   },
   data() {
     return {
       texts1: [
-        "Hemos creado una herramienta tecnológica para facilitar y automatizar el proceso de acreditación OECI en <strong>hospitales e institutos oncológicos</strong>. Intuitiva, segura y adaptable, nuestra solución reduce la carga operativa y mejora la coordinación entre equipos.",
+        "Hemos creado una herramienta tecnológica para facilitar y automatizar el proceso de acreditación OECI (Organisation of European Cancer Institutes) en <strong>hospitales e institutos oncológicos</strong>. Intuitiva, segura y adaptable, nuestra solución reduce la carga operativa y mejora la coordinación entre equipos.",
       ],
       texts2: [
-        "Disponible en <strong>modalidad Cloud u On-premise</strong>, nuestro servicio se adapta a las necesidades de la organización con total flexibilidad. Es posible agregar a la herramienta funcionalidades a medida como soporte multilingüe, cumplimiento de normativas internas, integración con otros sistemas u otras.",
+        "Disponible en <strong>modalidad Cloud u On-premise</strong>, nuestro servicio se adapta a las necesidades de la organización con total flexibilidad. Es posible agregar a la herramienta funcionalidades a medida como soporte multilingüe, cumplimiento de normativas internas e integración con otros sistemas.",
         "Además, es una solución <strong>escalable</strong>, ideal para cualquier proceso de acreditación que requiera una gestión eficiente de datos y flujos de trabajo automatizados, optimizando la colaboración entre equipos.",
       ],
       formulario: {
