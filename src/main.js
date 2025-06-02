@@ -27,6 +27,7 @@ import {
   faMobileAlt,
   faMapMarkerAlt,
   faPhone,
+  faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faOsi,
@@ -72,7 +73,8 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     faLinkedin,
     faGitlab,
     faInstagram,
-    faFacebook
+    faFacebook,
+    faChevronRight
   );
 
   Vue.component("Layout", DefaultLayout);

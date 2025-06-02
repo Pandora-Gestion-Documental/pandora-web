@@ -8,7 +8,9 @@
     <ScreenshotLeft :content="cumplimiento" />
     <ScreenshotRight :content="responsive" />
     <FeaturedText :texts="texts2" />
+    <Partnership />
     <More />
+    <FaqAccordion />
     <ContactForm />
   </Layout>
 </template>
@@ -29,6 +31,7 @@ import ScreenshotRight from "~/components/ScreenshotRight.vue";
 import ScreenshotLeft from "~/components/ScreenshotLeft.vue";
 import More from "~/components/More.vue";
 import Partnership from "../components/Partnership.vue";
+import FaqAccordion from "../components/FaqAccordion.vue";
 
 export default {
   metaInfo() {
@@ -44,6 +47,7 @@ export default {
     ScreenshotLeft,
     More,
     Partnership,
+    FaqAccordion,
   },
   data() {
     return {
