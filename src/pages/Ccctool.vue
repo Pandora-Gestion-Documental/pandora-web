@@ -52,7 +52,7 @@ export default {
   data() {
     return {
       texts1: [
-        "Hemos creado una herramienta tecnológica para facilitar y automatizar el proceso de acreditación OECI (Organisation of European Cancer Institutes) en <strong>hospitales e institutos oncológicos</strong>. Intuitiva, segura y adaptable, nuestra solución reduce la carga operativa y mejora la coordinación entre equipos.",
+        "Hemos creado una herramienta tecnológica para facilitar y automatizar el proceso de acreditación OECI (Organisation of European Cancer Institutes) en <strong>hospitales e institutos oncológicos</strong>. Intuitiva, segura y adaptable, nuestra solución reduce la carga operativa y mejora la coordinación entre equipos y su gestión documental.",
       ],
       texts2: [
         "Disponible en <strong>modalidad Cloud u On-premise</strong>, nuestro servicio se adapta a las necesidades de la organización con total flexibilidad. Es posible agregar a la herramienta funcionalidades a medida como soporte multilingüe, cumplimiento de normativas internas e integración con otros sistemas.",
