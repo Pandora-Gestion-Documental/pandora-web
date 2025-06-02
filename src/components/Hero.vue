@@ -21,6 +21,7 @@
             <img
               src="../assets/images/certificado.png"
               alt="Gestor documental para la acreditación OECI"
+              class="is-hidden-mobile"
             />
           </div>
         </div>
