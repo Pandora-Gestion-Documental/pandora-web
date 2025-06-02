@@ -2,7 +2,7 @@
   <section id="contact" class="section has-background-light">
     <div class="container py-4 is-max-desktop">
       <h2 class="title has-text-centered mb-6">
-        Contacta con nosotros
+        Contáctanos
       </h2>
       <p class="subtitle has-text-centered">
         ¡Estás a un paso de controlar tu información!

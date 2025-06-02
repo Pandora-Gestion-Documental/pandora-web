@@ -6,7 +6,7 @@
           <div class="column is-5">
             <h2 class="title is-5">Pandora Gestión Documental</h2>
             <p class="block">
-              Nosotros organizamos los documentos, nuestros clientes recuperan
+              Nuestro equipo organiza los documentos, tu organización recupera
               espacio, dinero e información.
             </p>
             <div class="buttons">
