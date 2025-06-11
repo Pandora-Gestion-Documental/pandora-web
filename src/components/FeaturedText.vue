@@ -8,7 +8,7 @@
               v-for="(item, index) in texts"
               :key="index"
               class="subtitle is-spaced is-3"
-              v-html="item"
+              v-html="$t(`${item}`)"
             />
           </div>
         </div>

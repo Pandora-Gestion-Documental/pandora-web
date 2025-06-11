@@ -28,6 +28,7 @@ import {
   faMapMarkerAlt,
   faPhone,
   faChevronRight,
+  faGlobeEurope,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faOsi,
@@ -74,8 +75,14 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     faGitlab,
     faInstagram,
     faFacebook,
-    faChevronRight
+    faChevronRight,
+    faGlobeEurope
   );
+
+  appOptions.i18n.setLocaleMessage("es", require("./locales/es.json"));
+  appOptions.i18n.setLocaleMessage("ca", require("./locales/ca.json"));
+  appOptions.i18n.setLocaleMessage("en", require("./locales/en.json"));
+  appOptions.i18n.setLocaleMessage("fr", require("./locales/fr.json"));
 
   Vue.component("Layout", DefaultLayout);
   Vue.component("vue-fontawesome", FontAwesomeIcon);

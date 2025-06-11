@@ -8,10 +8,10 @@
           </div>
           <div class="column is-4">
             <h1 class="subtitle is-spaced">
-              {{ content.title }}
+              {{ $t(`${content.title}`) }}
             </h1>
             <p>
-              {{ content.text }}
+              {{ $t(`${content.text}`) }}
             </p>
           </div>
         </div>

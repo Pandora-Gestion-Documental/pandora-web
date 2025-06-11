@@ -16,6 +16,7 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "buefy": "^0.9.5",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-i18n": "^1.6.0",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",
     "swiper": "^6.5.4",

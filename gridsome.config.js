@@ -31,6 +31,16 @@ module.exports = {
         id: "UA-194465716-1",
       },
     },
+    {
+      use: "gridsome-plugin-i18n",
+      options: {
+        locales: ["es", "ca", "en", "fr"],
+        fallbackLocale: "es",
+        defaultLocale: "es",
+        enablePathRewrite: true,
+        rewriteDefaultLanguage: true,
+      },
+    },
   ],
   transformers: {
     remark: {

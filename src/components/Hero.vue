@@ -8,12 +8,11 @@
               CCCtool
             </h1>
             <p class="subtitle is-2">
-              Simplifica y optimiza la obtención de la acreditación OECI con
-              nuestra solución digital.
+              {{ $t("ccctool.hero.subtitle") }}
             </p>
             <div class="buttons">
               <a class="button is-primary is-medium" href="/contacto">
-                Contáctanos
+                {{ $t("ccctool.hero.cta") }}
               </a>
             </div>
           </div>

@@ -6,8 +6,7 @@
           <div class="column is-5">
             <h2 class="title is-5">Pandora Gestión Documental</h2>
             <p class="block">
-              Nuestro equipo organiza los documentos, tu organización recupera
-              espacio, dinero e información.
+              {{ $t("components.footer.description") }}
             </p>
             <div class="buttons">
               <a
@@ -45,33 +44,41 @@
           </div>
 
           <div class="column is-4">
-            <h3 class="title is-6">Mapa del sitio</h3>
+            <h3 class="title is-6">{{ $t("components.footer.map") }}</h3>
             <ul>
               <li>
-                <g-link class="has-text-link" to="/">Inicio</g-link>
+                <g-link class="has-text-link" to="/">{{
+                  $t("components.navbar.home")
+                }}</g-link>
               </li>
               <li>
-                <g-link class="has-text-link" to="/servicios/"
-                  >Servicios</g-link
-                >
+                <g-link class="has-text-link" to="/servicios/">{{
+                  $t("components.navbar.services")
+                }}</g-link>
               </li>
               <li>
                 <g-link class="has-text-link" to="/ccctool/">CCCtool</g-link>
               </li>
               <li>
-                <g-link class="has-text-link" to="/clientes/">Clientes</g-link>
+                <g-link class="has-text-link" to="/clientes/">{{
+                  $t("components.navbar.customers")
+                }}</g-link>
               </li>
               <li>
-                <g-link class="has-text-link" to="/equipo/">Equipo</g-link>
+                <g-link class="has-text-link" to="/equipo/">{{
+                  $t("components.navbar.team")
+                }}</g-link>
               </li>
               <li>
-                <g-link class="has-text-link" to="/contacto/">Contacto</g-link>
+                <g-link class="has-text-link" to="/contacto/">{{
+                  $t("components.navbar.contact")
+                }}</g-link>
               </li>
             </ul>
           </div>
 
           <div class="column is-3">
-            <h3 class="title is-6">Miembros de</h3>
+            <h3 class="title is-6">{{ $t("components.footer.membership") }}</h3>
             <div class="columns is-vcentered">
               <div class="column">
                 <a
@@ -94,13 +101,13 @@
         <div class="column">
           <!-- <a href="#">Aviso legal</a>
             | -->
-          <g-link class="has-text-link" to="/politica-privacidad"
-            >Política de Privacidad</g-link
-          >
+          <g-link class="has-text-link" to="/politica-privacidad">{{
+            $t("components.footer.privacy")
+          }}</g-link>
         </div>
         <div class="column has-text-right-tablet">
           <p class="subtitle is-6">
-            &copy; 2012-2021 Pandora Gestión Documental, SL
+            &copy; 2012-2025 Pandora Gestión Documental, SL
           </p>
         </div>
       </div>
@@ -109,17 +116,18 @@
       <div class="columns">
         <div class="column">
           <p class="has-text-centered">
-            Creado con
+            {{ $t("components.footer.made") }}
             <b-icon pack="fas" icon="coffee" />
-            utilizando
+            {{ $t("components.footer.use") }}
             <a class="has-text-link" href="https://gridsome.org/">Gridsome</a>
-            y
+            {{ $t("components.footer.and") }}
             <a class="has-text-link" href="https://buefy.org/">Buefy</a>.
           </p>
           <p class="has-text-centered">
-            Código liberado bajo
-            <a class="has-text-link" href="https://mit-license.org/"
-              >Licencia MIT</a
+            {{ $t("components.footer.code") }}
+            <a class="has-text-link" href="https://mit-license.org/">{{
+              $t("components.footer.mit")
+            }}</a
             >.
           </p>
         </div>

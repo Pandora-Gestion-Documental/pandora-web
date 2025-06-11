@@ -13,29 +13,66 @@
       </template>
       <template #start>
         <b-navbar-item tag="router-link" to="/">
-          Inicio
+          {{ $t("components.navbar.home") }}
         </b-navbar-item>
         <b-navbar-item tag="router-link" to="/servicios/">
-          Servicios
+          {{ $t("components.navbar.services") }}
         </b-navbar-item>
-        <b-navbar-dropdown collapsible has-link="true" label="Productos">
+        <b-navbar-dropdown
+          collapsible
+          has-link="true"
+          :label="$t('components.navbar.products')"
+        >
           <b-navbar-item tag="router-link" to="/ccctool/">
             CCCtool
           </b-navbar-item>
         </b-navbar-dropdown>
-        <b-navbar-dropdown collapsible has-link="true" label="Nosotros">
+        <b-navbar-dropdown
+          collapsible
+          has-link="true"
+          :label="$t('components.navbar.about')"
+        >
           <b-navbar-item tag="router-link" to="/clientes/">
-            Clientes
+            {{ $t("components.navbar.customers") }}
           </b-navbar-item>
           <b-navbar-item tag="router-link" to="/equipo/">
-            Equipo
+            {{ $t("components.navbar.team") }}
           </b-navbar-item>
         </b-navbar-dropdown>
         <b-navbar-item tag="router-link" to="/contacto/">
-          Contacto
+          {{ $t("components.navbar.contact") }}
         </b-navbar-item>
       </template>
       <template #end>
+        <b-navbar-item tag="div">
+          <b-dropdown aria-role="list" v-model="currentLocale">
+            <button
+              class="button is-black"
+              slot="trigger"
+              slot-scope="{ active }"
+            >
+              <b-icon
+                pack="fas"
+                icon="globe-europe"
+                size="is-medium"
+                type="is-white"
+              ></b-icon>
+              <span class="has-text-white ml-1">{{
+                localeLabels[currentLocale]
+              }}</span>
+            </button>
+            <b-dropdown-item
+              @click="setLocale(locale)"
+              aria-role="listitem"
+              v-for="locale in availableLocales"
+              :key="locale"
+              :value="locale"
+            >
+              {{ localeLabels[locale] }}
+            </b-dropdown-item>
+          </b-dropdown>
+        </b-navbar-item>
+
         <b-navbar-item tag="div">
           <div class="block">
             <a
@@ -68,3 +105,28 @@
     </b-navbar>
   </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      currentLocale: this.$i18n.locale.toString(),
+      availableLocales: this.$i18n.availableLocales,
+      localeLabels: {
+        es: "Castellano",
+        ca: "Català",
+        en: "English",
+        fr: "Français",
+      },
+    };
+  },
+  methods: {
+    setLocale(locale) {
+      this.currentLocale = locale;
+      this.$router.push({
+        path: this.$tp(this.$route.path, locale, true),
+      });
+    },
+  },
+};
+</script>
