@@ -10,7 +10,8 @@
         "contact": "Contact"
       },
       "contactForm": {
-        "title": "You're one step away from taking control of your information!",
+        "title": "Contact us",
+        "subtitle":  "You're one step away from taking control of your information!",
         "name": "Name*",
         "company": "Organization*",
         "university": "University of Cambridge",

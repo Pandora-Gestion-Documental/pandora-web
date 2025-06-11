@@ -10,7 +10,8 @@
         "contact": "Contactez-nous"
       },
       "contactForm": {
-        "title": "Vous êtes à un pas de reprendre le contrôle de vos informations!",
+        "title": "Contactez-nous",
+        "subtitle": "Vous êtes à un pas de reprendre le contrôle de vos informations!",
         "name": "Nom*",
         "company": "Organisation*",
         "university": "Université de Strasbourg",

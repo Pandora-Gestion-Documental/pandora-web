@@ -10,7 +10,8 @@
         "contact": "Contacto"
       },
       "contactForm": {
-        "title": "¡Estás a un paso de controlar tu información!",
+        "title": "Contáctanos",
+        "subtitle": "¡Estás a un paso de controlar tu información!",
         "name": "Nombre*",
         "company": "Organización*",
         "university": "Universidad de Cambridge",

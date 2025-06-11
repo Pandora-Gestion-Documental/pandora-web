@@ -2,10 +2,10 @@
   <section id="contact" class="section has-background-light">
     <div class="container py-4 is-max-desktop">
       <h2 class="title has-text-centered mb-6">
-        Contáctanos
+        {{ $t("components.contactForm.title") }}
       </h2>
       <p class="subtitle has-text-centered">
-        {{ $t("components.contactForm.title") }}
+        {{ $t("components.contactForm.subtitle") }}
       </p>
 
       <form @submit.prevent="submitForm">
