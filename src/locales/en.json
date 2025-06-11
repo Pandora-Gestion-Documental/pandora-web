@@ -1,109 +1,109 @@
 {
     "components": {
       "navbar": {
-        "home": "Inicio",
-        "services": "Servicios",
-        "products": "Productos",
-        "about": "Acerca de",
-        "team": "Equipo",
-        "customers": "Clientes",
-        "contact": "Contacto"
+        "home": "Home",
+        "services": "Services",
+        "products": "Products",
+        "about": "About",
+        "team": "Our team",
+        "customers": "Customers",
+        "contact": "Contact"
       },
       "contactForm": {
-        "title": "¡Estás a un paso de controlar tu información!",
-        "name": "Nombre*",
-        "company": "Organización*",
-        "university": "Universidad de Cambridge",
-        "number": "Teléfono*",
-        "help": "¿Cómo podemos ayudarte?*",
-        "message": "Cuéntanos tu proyecto de gestión documental y pídenos presupuesto.",
-        "consent": "He leído y acepto la ",
-        "privacy": "Política de Privacidad",
-        "contact": "Contacta",
-        "mandatory": "Campos obligatorios",
-        "legalNotice": "Utilizamos estos datos únicamente para responder tus consultas, lo que puede incluir la elaboración y la presentación de una propuesta comercial personalizada en el caso de consultas relativas a nuestros servicios. Por supuesto, no cederemos tus datos a terceros ni usaremos estos datos con cualquier otra finalidad. Puedes ejercer tus derechos de acceso, rectificación, oposición, supresión, limitación del tratamiento y portabilidad escribiéndonos a info@pandoragestiondocumental.es. Al contactar con nosotros, garantizas que eres mayor de 14 años y que la información facilitada es exacta y veraz. Si no estás de acuerdo, por favor no envíes este formulario."
+        "title": "You're one step away from taking control of your information!",
+        "name": "Name*",
+        "company": "Organization*",
+        "university": "University of Cambridge",
+        "number": "Phone number*",
+        "help": "How can we help you?*",
+        "message": "Tell us about your document management project and request a quote",
+        "consent": "I have read and accept the",
+        "privacy": "Privacy Policy",
+        "contact": "Contact us",
+        "mandatory": "Required fields",
+        "legalNotice": "We use this data solely to respond to your inquiries, which may include the preparation and presentation of a personalized commercial proposal if your query relates to our services. Of course, we will not share your data with third parties nor use it for any other purpose. You may exercise your rights of access, rectification, objection, erasure, restriction of processing, and data portability by writing to info@pandoragestiondocumental.es. By contacting us, you confirm that you are over 14 years old and that the information provided is accurate and truthful. If you do not agree, please do not submit this form."
       },
       "footer": {
-        "description": "Nuestro equipo organiza los documentos, tu organización recupera espacio, dinero e información.",
-        "map": "Mapa del sitio",
-        "membership": "Miembro de",
-        "privacy": "Política de Privacidad",
-        "made": "Creado con ",
-        "use": "utilizando ",
-        "and": "y ",
-        "code": "Código liberado bajo ",
-        "mit": "Licencia MIT"
+        "description": "Our team organizes the documents, your organization recovers space, money, and information.",
+        "map": "Sitemap",
+        "membership": "Member of",
+        "privacy": "Privacy policy",
+        "made": "Created with ",
+        "use": "using ",
+        "and": "and ",
+        "code": "Code released under ",
+        "mit": "MIT License"
       }
     },
     "ccctool": {
       "hero": {
-        "subtitle": "Simplifica y optimiza la obtención de la acreditación OECI con nuestra solución digital.",
-        "cta": "Contáctanos"
+        "subtitle": "Simplify and optimize the OECI accreditation process with our digital solution.",
+        "cta": "Contact us"
       },
-      "mainFeatured": "Hemos creado una herramienta tecnológica para facilitar y automatizar el proceso de acreditación OECI (Organisation of European Cancer Institutes) en <strong>hospitales e institutos oncológicos</strong>. Intuitiva, segura y adaptable, nuestra solución reduce la carga operativa y mejora la coordinación entre equipos y su gestión documental.",
+      "mainFeatured": "We have developed a software application to facilitate and automate the OECI (Organisation of European Cancer Institutes) accreditation process in <strong>hospitals and cancer institutes</strong>. Intuitive, secure, and adaptable, our solution reduces operational burden and improves team coordination and document management.",
       "secondaryFeatured": {
-        "text1": "Disponible en <strong>modalidad Cloud u On-premise</strong>, nuestro servicio se adapta a las necesidades de la organización con total flexibilidad. Es posible agregar a la herramienta funcionalidades a medida como soporte multilingüe, cumplimiento de normativas internas e integración con otros sistemas.",
-        "text2": "Además, es una solución <strong>escalable</strong>, ideal para cualquier proceso de acreditación que requiera una gestión eficiente de datos y flujos de trabajo automatizados, optimizando la colaboración entre equipos."
+        "text1": "Available in <strong>Cloud or On-premise mode</strong>, our service adapts to the organization’s needs with full flexibility. Custom features can be added to the tool, such as multilingual support, compliance with internal regulations, and integration with other systems.",
+        "text2": "In addition, it is a <strong>scalable</strong>solution, ideal for any accreditation process that requires efficient data management and automated workflows, optimizing team collaboration."
       },
       "form": {
-        "title": "Formularios íntegramente adaptados al manual de acreditación de la OECI",
-        "text": "Gestiona los estándares cualitativos y sus preguntas CORE, los cuestionarios cuantitativos y la solicitud de documentos."
+        "title": "Forms fully adapted to the OECI accreditation manual",
+        "text": "Manage qualitative standards and their CORE questions, quantitative questionnaires, and document requests."
       },
       "workflow": {
-        "title": "Flujos de trabajo configurables",
-        "text": "Facilita la comunicación y el intercambio de datos entre las áreas."
+        "title": "Configurable workflows",
+        "text": "Facilitates communication and data exchange between departments."
       },
       "followUp": {
-        "title": "Seguimiento en tiempo real",
-        "text": "Seguimiento visual del avance de la acreditación a través de paneles de Power BI."
+        "title": "Real-time tracking",
+        "text": "Visual monitoring of the accreditation progress through Power BI dashboards."
       },
       "compliance": {
-        "title": "Puntuación de cumplimiento",
-        "text": "Compara el cumplimiento de tu hospital o instituto oncológico con la media de centros acreditados."
+        "title": "Compliance scoring",
+        "text": "Compare your hospital or cancer institute’s compliance with the average of accredited centers."
       },
       "responsive": {
-        "title": "Diseño amigable, intuitivo y adaptativo",
-        "text": "Las personas pueden acceder a los cuestionarios desde sus correos y cumplimentarlos en cualquier dispositivo."
-      },
+        "title": "User-friendly, intuitive, and adaptive design",
+        "text": "People can access the questionnaires from their email and complete them on any device."
+         },
       "partnership": {
-        "title": "Una colaboración con OnlineTIC",
-        "firstParagraph": "CCCtool ha sido desarrollado utilizando <strong>Hydra</strong>, la plataforma de automatización de flujos de trabajo de <strong>OnlineTIC</strong>.",
-        "secondParagraph": "Gracias a su potencia y flexibilidad, Hydra ha permitido construir una herramienta robusta y adaptable, capaz de ajustarse a los requisitos específicos de cada centro. Esto convierte a CCCtool en una solución modulable y personalizada, y no en un producto cerrado, facilitando una implantación ágil y alineada con la estructura organizativa de cada institución."
+        "title": "A collaboration with OnlineTIC",
+        "firstParagraph": "CCCtool has been developed using <strong>Hydra</strong>, the workflow automation platform by <strong>OnlineTIC</strong>.",
+        "secondParagraph": "Thanks to its power and flexibility, Hydra has enabled the creation of a robust and adaptable tool, capable of meeting the specific requirements of each center. This makes CCCtool a modular and customizable solution—not a closed product—allowing for fast deployment aligned with each institution’s organizational structure."
       },
       "more": {
-        "title": "Más características",
+        "title": "More features",
         "ai": {
-          "description": "Integración opcional de inteligencia artificial para transcripción automática, conversión de voz a texto y resumen de documentos.",
-          "name": "Experiencia mejorada con IA"
+          "description": "Optional integration of artificial intelligence for automatic transcription, speech-to-text conversion, and document summarization. ",
+          "name": "Enhanced experience with AI"
         },
         "knowledgeBase": {
-          "description": "Repositorio con materiales de apoyo y ayudas para cumplimentar los cuestionarios.",
-          "name": "Base de conocimiento"
+          "description": "A repository with support materials and guidance for completing the questionnaires.",
+          "name": "Knowledge base"
         },
         "support": {
-          "description": "Nuestro equipo de consultoría y tecnología te acompaña durante todo el proyecto.",
-          "name": "Soporte"
+          "description": "Our consulting and technology team works closely with you every step of the way.",
+          "name": "Support"
         }
       },
       "faqs": [
         {
-          "question": "¿Cuáles son los plazos de puesta en marcha?",
-          "answer": "CCCtool ya está desarrollado y listo para implantarse en un plazo máximo de 2 semanas, incluyendo la instalación, configuración inicial, carga de grupos y usuarios y formación del centro. Este plazo puede variar en caso de contratar nuevas funcionalidades."
+          "question": "What is the implementation timeline?",
+          "answer": "CCCtool is already developed and ready to be deployed within a maximum of 2 weeks, including installation, initial configuration, group and user setup, and training for the center. This timeline may vary if additional functionalities are requested."
         },
         {
-          "question": "¿Se puede instalar en los servidores del hospital o instituto oncológico?",
-          "answer": "Sí, la aplicación se ofrece tanto en la modalidad Cloud como On-Premise, por lo que el hospital o instituto oncológico decide en qué infraestructura funcionará la aplicación."
+          "question": "Can it be installed on the hospital or cancer institute’s servers?",
+          "answer": "Yes, the application is available in both Cloud and On-Premise versions, so the hospital or cancer institute can choose the infrastructure on which the application will run."
         },
         {
-          "question": "¿Quién ha desarrollado CCCtool?",
-          "answer": "<p>CCCtool es una solución desarrollada de forma independiente por Pandora Gestión Documental y OnlineTIC para facilitar la preparación y gestión documental del proceso de acreditación OECI.</p><p>Esta herramienta <strong>no está avalada, patrocinada ni vinculada de ningún modo con la Organisation of European Cancer Institutes (OECI)</strong>, ni sustituye la plataforma oficial utilizada por dicha organización.</p><p>Los formularios incluidos en CCCtool se han adaptado como apoyo técnico a partir del manual de acreditación publicado por la OECI. <strong>El contenido de dicho manual está protegido por derechos de autor</strong>, y su inclusión se hace con carácter meramente referencial y operativo, sin que ello implique ningún tipo de explotación directa ni comercialización de dicho material.</p><p>Cualquier mención a la OECI tiene carácter <strong>descriptivo e informativo</strong>, y su finalidad es contextualizar el ámbito funcional de la herramienta.</p>"
+          "question": "Who developed the tool?",
+          "answer": "<p>CCCtool is an independently developed solution by Pandora Gestión Documental and OnlineTIC to facilitate the preparation and document management involved in the OECI accreditation process.</p><p>This application <strong>is not endorsed, sponsored, or affiliated in any way with the Organisation of European Cancer Institutes (OECI)</strong>, nor does it replace the official platform used by that organisation.</p><p>The forms included in CCCtool have been adapted as a technical aid based on the accreditation manual published by the OECI. <strong>The content of that manual is copyright protected</strong>, and its inclusion is solely for reference and operational purposes. It does not imply any direct exploitation or commecial use of the material. </p><p>Any mention of the OECI is <strong>purely descriptive and informative</strong>, intended only to provide context regarding the functional scope of the tool.</p>"
         },
         {
-          "question": "¿CCCtool sustituye otros sistemas de la OECI?",
-          "answer": "CCCtool no sustituye la aplicación de la OECI, sino que facilita la obtención, revisión y preparación de los datos a introducir posteriormente en dicho sistema, así como el seguimiento del proceso por parte de la persona responsable de la acreditación. Además, la solución también es aplicable a otros proceso de acreditación del hospital o instituto oncológico."
+          "question": "Does CCCtool replace other OECI systems?",
+          "answer": "CCCtool does not replace the OECI’s own application tool but helps facilitate the collection, review, and preparation of the data to be later entered into that system, as well as the monitoring of the process by the accreditation officer. Moreover, the solution can also be applied to other accreditation processes within the hospital or cancer institute. "
         }
       ],
-      "faqTitle": "Preguntas frecuentes"
+      "faqTitle": "Frequently Asked Questions"
     }
 }
   
