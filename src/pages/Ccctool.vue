@@ -62,12 +62,6 @@ export default {
         imageSrc: require("@/assets/images/formularios-oeci.png"),
         imageAlt: "Gestor documental para la acreditación OECI",
       },
-      flujo: {
-        title: "ccctool.workflow.title",
-        text: "ccctool.workflow.text",
-        imageSrc: require("@/assets/images/proceso.png"),
-        imageAlt: "Gestor documental para la acreditación OECI",
-      },
       seguimiento: {
         title: "ccctool.followUp.title",
         text: "ccctool.followUp.text",
@@ -87,6 +81,34 @@ export default {
         imageAlt: "Gestor documental para la acreditación OECI",
       },
     };
+  },
+  computed: {
+    flujo() {
+      const lang = this.$i18n.locale;
+      let image;
+      switch (lang) {
+        case "es":
+          image = require("@/assets/images/proceso-es.png");
+          break;
+        case "en":
+          image = require("@/assets/images/proceso-en.png");
+          break;
+        case "fr":
+          image = require("@/assets/images/proceso-fr.png");
+          break;
+        case "ca":
+          image = require("@/assets/images/proceso-ca.png");
+          break;
+        default:
+          image = require("@/assets/images/proceso-es.png");
+      }
+      return {
+        title: "ccctool.workflow.title",
+        text: "ccctool.workflow.text",
+        imageSrc: image,
+        imageAlt: "Gestor documental para la acreditación OECI",
+      };
+    },
   },
 };
 </script>
