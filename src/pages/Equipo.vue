@@ -106,11 +106,6 @@ export default {
     return {
       team: [
         {
-          name: "Diego Rodríguez",
-          role: "Co-fundador",
-          picture: "diego-rodriguez.jpg",
-        },
-        {
           name: "Alba Jiménez",
           role: "Responsable de Administración y Soporte",
           picture: "alba-jimenez.jpeg",
