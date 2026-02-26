@@ -18,15 +18,15 @@
         <b-navbar-item tag="router-link" to="/servicios/">
           {{ $t("components.navbar.services") }}
         </b-navbar-item>
-        <b-navbar-dropdown
+        <!-- <b-navbar-dropdown
           collapsible
           has-link="true"
           :label="$t('components.navbar.products')"
         >
-          <b-navbar-item tag="router-link" to="/ccctool/">
-            CCCtool
+          <b-navbar-item tag="router-link" to="/example/">
+            Example
           </b-navbar-item>
-        </b-navbar-dropdown>
+        </b-navbar-dropdown> -->
         <b-navbar-dropdown
           collapsible
           has-link="true"
