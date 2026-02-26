@@ -57,9 +57,6 @@
                 }}</g-link>
               </li>
               <li>
-                <g-link class="has-text-link" to="/ccctool/">CCCtool</g-link>
-              </li>
-              <li>
                 <g-link class="has-text-link" to="/clientes/">{{
                   $t("components.navbar.customers")
                 }}</g-link>
