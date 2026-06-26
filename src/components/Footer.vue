@@ -98,9 +98,18 @@
         <div class="column">
           <!-- <a href="#">Aviso legal</a>
             | -->
-          <g-link class="has-text-link" to="/politica-privacidad">{{
-            $t("components.footer.privacy")
-          }}</g-link>
+          <ul>
+            <li>
+              <g-link class="has-text-link" to="/politica-privacidad">{{
+                $t("components.footer.privacy")
+              }}</g-link>
+            </li>
+            <li>
+              <g-link class="has-text-link" to="/politica-calidad">{{
+                $t("components.footer.quality")
+              }}</g-link>
+            </li>
+          </ul>
         </div>
         <div class="column has-text-right-tablet">
           <p class="subtitle is-6">

@@ -19,7 +19,7 @@
         "help": "¿Cómo podemos ayudarte?*",
         "message": "Cuéntanos tu proyecto de gestión documental y pídenos presupuesto.",
         "consent": "He leído y acepto la ",
-        "privacy": "Política de Privacidad",
+        "privacy": "Política de privacidad",
         "contact": "Contacta",
         "mandatory": "Campos obligatorios",
         "legalNotice": "Utilizamos estos datos únicamente para responder tus consultas, lo que puede incluir la elaboración y la presentación de una propuesta comercial personalizada en el caso de consultas relativas a nuestros servicios. Por supuesto, no cederemos tus datos a terceros ni usaremos estos datos con cualquier otra finalidad. Puedes ejercer tus derechos de acceso, rectificación, oposición, supresión, limitación del tratamiento y portabilidad escribiéndonos a info@pandoragestiondocumental.es. Al contactar con nosotros, garantizas que eres mayor de 14 años y que la información facilitada es exacta y veraz. Si no estás de acuerdo, por favor no envíes este formulario."
@@ -28,7 +28,8 @@
         "description": "Nuestro equipo organiza los documentos, tu organización recupera espacio, dinero e información.",
         "map": "Mapa del sitio",
         "membership": "Miembro de",
-        "privacy": "Política de Privacidad",
+        "privacy": "Política de privacidad",
+        "quality": "Política del sistema integrado de gestión",
         "made": "Creado con ",
         "use": "utilizando ",
         "and": "y ",
